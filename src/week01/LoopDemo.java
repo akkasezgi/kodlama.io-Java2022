@@ -18,6 +18,17 @@ public class LoopDemo {
 		}
 		
 		System.out.println("While dongusu bitti");
+		
+		
+		int j=1;
+		
+		do {
+			System.out.println(j);
+			j+=2;
+			
+		}while(j<10);
+		
+		System.out.println("Do-while dongusu bitti");
 	}
 
 }
